@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:SwiftCLIFun}",
+      "name": "Debug SwiftCLIFun",
+      "program": "${workspaceFolder:SwiftCLIFun}/.build/debug/SwiftCLIFun",
+      "preLaunchTask": "swift: Build Debug SwiftCLIFun"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:SwiftCLIFun}",
+      "name": "Release SwiftCLIFun",
+      "program": "${workspaceFolder:SwiftCLIFun}/.build/release/SwiftCLIFun",
+      "preLaunchTask": "swift: Build Release SwiftCLIFun"
+    }
+  ]
+}
